@@ -1,24 +1,24 @@
-import React from 'react'
-import Board from './Board'
-import Square from './Square'
+import React from 'react';
+import Board from './Board';
+import { calculateWinner } from '../helpers';
 
-function Game(){
-
-    function handleClick(){
-        return            
+const Game = () => {
+    
+    const handleClick = () => {
+        
     }
-
-    function jumpTo(){
-        return        
+    
+    const jumpTo = () => {
+        
     }
-
-    function renderMoves(){
-        return        
+    
+    const renderMoves = () => {
+        
     }
-
+    
     return (
-    <Board onClick={handleClick}/>
+        <Board onClick={handleClick} />
     )
 }
 
-export default Game
+export default Game;
